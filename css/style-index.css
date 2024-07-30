@@ -13,14 +13,16 @@ body{
     background: #2196F3;
 }
 .modal-1 {
-    
-    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
 }
 
 .payment {
     background: #f8f8f8;
-    max-width: 360px;
-    margin: 80px auto;
+    max-width: 400px;
+    margin: 20px auto;
     height: auto;
     padding: 35px;
     padding-top: 70px;
@@ -143,4 +145,38 @@ body{
     .btn {
         margin-top: 20px;
     }
+}
+.img-index{
+    
+    
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+.img-index img{
+    width: 90%;
+    
+    border-radius: 100%;
+}
+
+.text-index{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text-index h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.text-index p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.container-img{
+    max-width: 450px;
 }
